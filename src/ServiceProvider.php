@@ -1,4 +1,4 @@
-<?php namespace Vendor\Package;
+<?php namespace Jvleeuwen\Testpackage;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
@@ -18,11 +18,11 @@ class ServiceProvider extends LaravelServiceProvider {
      */
     public function boot() {
 
-        $this->handleConfigs();
+        // $this->handleConfigs();
         // $this->handleMigrations();
         // $this->handleViews();
         // $this->handleTranslations();
-        // $this->handleRoutes();
+        $this->handleRoutes();
     }
 
     /**

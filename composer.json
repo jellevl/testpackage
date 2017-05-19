@@ -1,13 +1,13 @@
 {
-  "name": "vendor/package",
-  "description": "",
+  "name": "jvleeuwen/laraveltestpackage",
+  "description": "test package for laravel package development",
   "keywords": [],
   "homepage": "",
   "license": "MIT",
   "authors": [
     {
-      "name": "",
-      "email": ""
+      "name": "Jelle van Leeuwen",
+      "email": "info@jellevl.nl"
     }
   ],
   "require": {
@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Vendor\\Package\\": "src/"
+      "Jvleeuwen\\Testpackage\\": "src/"
     }
   },
   "minimum-stability": "dev"
